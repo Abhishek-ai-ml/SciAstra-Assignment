@@ -3,7 +3,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {FaTelegramPlane} from 'react-icons/fa'
 const Advisor_Card = ({adv}) => {
   return (
-    <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] text-cyan-800 font-semibold flex flex-col items-center p-5 w-[25%] hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-all duration-200 ease-in-out rounded-xl hover:scale-110 text-center group'>
+    <div className='shadow-[0_3px_10px_rgb(0,0,0,0.2)] text-cyan-800 font-semibold flex flex-col items-center p-5 w-full lg:w-[25%] hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-all duration-200 ease-in-out rounded-xl hover:scale-110 text-center group'>
       {
         adv.id === 1 ? <div className="pb-5 text-3xl font-semibold">Mentor & Advisor</div> : <div></div>
       }
